@@ -1,34 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="=UTF">
-		<link rel="stylesheet" href="assets/css/style.css">
-		<title>MENU</title>
+<html>
 
-	</head>
+<head>
 
-	<body>
-		<header class="header">
-			<div class="containerh">
-				<div class="header_inner">
-					<div class="header_logo">NVS</div>
-					<nav class="nav">
-						<a class="nav_link" href="#">home</a>
-						<a class="nav_link" href="#">IMAGES</a>
-						<a class="nav_link" href="#">NFT</a>
-						<a class="nav_link" href="#">KONTAKT</a>
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
 
-					</nav>
-				</div>
+	<title>Showcase 3D Effect</title>
+	<meta name="description" content="Showcase 3D Effect with CSS, HTML, Swiper">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/preview.jpg">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+
+
+<div class="menu_l_1">
+	<div class="menu_l_2">
+			<div class="logo">NVS</div>
+			<div class="menu_l_3">
+				<a class="menu_1_4" href="index.html">home</a>
+				<a class="menu_1_4" href="now.html">images</a>
+				<a class="menu_1_4" href="#">nft</a>
+				<a class="menu_1_4" href="#">kontakt</a>
+				
+
 			</div>
-		</header>
+			
+	</div>
+</div>
 
-		<div class="big_box">
-			<div class="container">
-				<h1>NVS</h1>
+	<section class="showcase">
+
+		
+
+		<div class="showcase__content-wrapper">
+			<div class="showcase__content">
+
+				<div class="showcase-carousel">
+
+					<div class="swiper-wrapper">
+
+						<div class="swiper-slide showcase-carousel__item">
+							<div class="showcase-carousel__image-wrapper">
+								<div class="showcase-carousel__image-left">
+									<div class="showcase-carousel__image" style="background-image: url(images/1.png);"></div>
+								</div>
+								<div class="showcase-carousel__image-right">
+									<div class="showcase-carousel__image" style="background-image: url(images/1.png);"></div>
+								</div>
+							</div>
+							<p>Front</p>
+						</div>
+
+						<div class="swiper-slide showcase-carousel__item">
+							<div class="showcase-carousel__image-wrapper">
+								<div class="showcase-carousel__image-left">
+									<div class="showcase-carousel__image" style="background-image: url(images/2.png);"></div>
+								</div>
+								<div class="showcase-carousel__image-right">
+									<div class="showcase-carousel__image" style="background-image: url(images/2.png);"></div>
+								</div>
+							</div>
+							<p>Front Two</p>
+						</div>
+
+						<div class="swiper-slide showcase-carousel__item">
+							<div class="showcase-carousel__image-wrapper">
+								<div class="showcase-carousel__image-left">
+									<div class="showcase-carousel__image" style="background-image: url(images/3.png);"></div>
+								</div>
+								<div class="showcase-carousel__image-right">
+									<div class="showcase-carousel__image" style="background-image: url(images/3.png);"></div>
+								</div>
+							</div>
+							<p>Side</p>
+						</div>
+
+						<div class="swiper-slide showcase-carousel__item">
+							<div class="showcase-carousel__image-wrapper">
+								<div class="showcase-carousel__image-left">
+									<div class="showcase-carousel__image" style="background-image: url(images/4.png);"></div>
+								</div>
+								<div class="showcase-carousel__image-right">
+									<div class="showcase-carousel__image" style="background-image: url(images/4.png);"></div>
+								</div>
+							</div>
+							<p>Back</p>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="showcase-navigation">
+				
+				
+		
+					<div class="showcase-navigation__prev"></div>
+					<div class="showcase-navigation__next"></div>
+				</div>
+
 			</div>
 		</div>
-		
-	</body>
-		
+
+		<video src="videos/smoke-background-optimized.mp4" class="showcase__video" autoplay loop muted></video>
+
+	</section>
+
+	<script src="libs/swiper/swiper-bundle.min.js"></script>
+
+	<script src="js/common.js"></script>
+
+</body>
+
 </html>
